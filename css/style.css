@@ -65,13 +65,12 @@ body {
     font-size: 4.0625rem;
   }
   .header .row .titel-heder{
-    background-color: #1E202B;
-    padding: 10px;
-    border-radius: 10px 0 0 0;
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ffffffab;
+    padding: 7px;
+    border-radius: 10px 0 0 0 ;
   }
-  .forecast-content{
-    background-color: #323544;
-  }
+ 
   .num{
     font-size: 5rem;
   }
@@ -124,34 +123,27 @@ body {
   .item .temp p {
     font-size: 25px;
   }
-  .footer {
-    box-shadow: 0 0px 4px 0 rgba(0, 0, 0, 0.2);
-    background-color: #1E202B;
+ .test{
+    background: rgba(255, 255, 255,0.1);
+    border-radius: 20px 0 0 20px;
+    backdrop-filter: blur(8px);
+    border-left: 1px solid rgba(255, 255, 255,0.3);
+    border-top: 1px solid rgba(255, 255, 255,0.3);
+    box-shadow: 20px 20px 35px -2px rgba(0, 0, 0, 0.2);
   }
-  .footer .social-links div {
-    width: 50px;
-    color: #fff;
-    height: 50px;
-    border: 1px solid #dee2e6;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-  }
-  .footer .social-links i {
-    transition: color 0.25s;
-    font-size: 20px;
-  }
-  .footer .social-links .facebook:hover i {
-    color: #1877f2;
-  }
-  .footer .social-links .twitter:hover i {
-    color: #1da1f2;
-  }
-  .footer .social-links .google:hover i {
-    color: #ea4335;
-  }
-  .footer .social-links .pinterest:hover i {
-    color: #e60023;
-  }
+  .test1:nth-child(2){
+    background: rgba(255, 255, 255,0.1);
+      border-radius: 0 0px 0 0;
+      backdrop-filter: blur(8px);
+      border-left: 1px solid rgba(255, 255, 255,0.3);
+      border-top: 1px solid rgba(255, 255, 255,0.3);
+      box-shadow: 20px 20px 35px -2px rgba(0, 0, 0, 0.2);
+   }
+ .test1:nth-child(3){
+    background: rgba(255, 255, 255,0.1);
+    border-radius: 0 20px 20px 0;
+    backdrop-filter: blur(8px);
+    border-left: 1px solid rgba(255, 255, 255,0.3);
+    border-top: 1px solid rgba(255, 255, 255,0.3);
+    box-shadow: 20px 20px 35px -2px rgba(0, 0, 0, 0.2);
+ }
